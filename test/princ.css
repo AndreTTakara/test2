@@ -1,0 +1,234 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgba(78, 2, 153, 0.993)
+    ); */
+background: url(/img/mak-1HOmj1evC54-unsplash.jpg);
+    background-size: cover;
+  background-position: center;
+
+}
+
+header{
+ display: flex;
+    padding: 20px 6%;
+  background: url(/img/Rectangle\ 26.png);
+  margin: 0 auto;
+}
+
+.search-box{
+    padding: 2em;
+    
+}
+
+.search-txt{
+    border-radius: 15px;
+    border: none;
+    width: 1000px;
+    height:35px;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.search-txt::placeholder{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+ 
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+
+.lista-menu{
+    display: flex;
+    padding: 30px;
+    padding-left: 1200px;
+}
+
+.lista-menu__item{
+    list-style: none;
+    padding: 10px;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+    
+
+}
+
+.lista-menu__link:hover{
+color: rgb(255, 255, 255);
+text-shadow: 0 0 10px #A56AFA;
+
+}
+
+ i{
+    font-size: 20px;
+    color: white;
+    margin: 0 10px 10px;
+}
+
+.menu-baixo{
+    background:  #A56AFA;
+    display: flex;
+    padding: 5px 4%;
+    margin: 0 auto;
+    height: 45px;
+
+}
+
+.itens{
+    display: flex;
+    padding: 8px;
+   
+}
+
+.list{
+    margin: 0 50px;
+    list-style-type: none;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.links:hover{
+    text-shadow: 0 0px 10px  #f8fbff;
+
+}
+
+/* banner */
+.banner{
+    background-color:black;
+     height: 250px;
+      color: white;
+        text-align: center;
+        padding: 60px;
+       background: url(/img/Rectangle\ 26.png);
+}   
+
+.banner__titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto{ 
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.banner__pesquisa
+{
+    background: rgb(255, 255, 255);
+    border: 1px solid white;
+    color: black;
+    border-radius: 24px;
+    padding: 1em;
+    width: 40%;
+}
+
+.banner__pesquisa::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url(/img/Vector.png) no-repeat;
+    background-position: 0.8em;
+}
+
+input[type=search] {
+    color: rgb(255, 145, 0);
+}
+
+.tit{
+    color: #A56AFA;
+    text-shadow: 0 0 5px #535353;
+    font-size: 25px;
+}
+
+
+/* Carrossel */
+.game-imagem{
+    margin-top: 10px;
+}
+
+.swiper {
+    width:80%;
+    height: 500px;
+  }
+
+
+.swiper-slide img{
+width: 100%;
+
+}
+
+.game1{
+    background-color: #202731;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card h2 {
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

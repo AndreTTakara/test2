@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="princ.css">
+    <script src="https://kit.fontawesome.com/c971813ea1.js" crossorigin="anonymous"></script> 
+    <title>Principal</title>
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+
+    <!-- link para fazer o carrossel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   
+
+</head>
+<body>
+
+    <!-- header design -->
+       <header class="header">
+          <div class="interface">
+            <!-- Logo -->
+            <a href="">
+                <img src="/img/logo.png" alt="" height="90px">
+            </a>
+          </div>
+<!-- 
+          <div class="search-box">
+           <a href=""></a><input type="text" class="search-txt" placeholder="Procure aqui seus jogos">
+           
+                
+           </div> -->
+
+           <nav class="menu">
+            <ul class="lista-menu">
+                <li class="lista-menu__item"><i class="fa-solid fa-wallet"></i> <a href="" class="lista-menu__link">Cadastro</a></li>
+                 <li class="lista-menu__item"><i class="fa-solid fa-user"></i> <a href="/login/login.html"class="lista-menu__link">Login</a></li>
+                
+            </ul>
+           </nav>
+
+
+        </header>
+
+        <section class="menu-baixo">
+            <ul class="itens">
+                <li class="list">
+                    <a href="" class="links">Sua Loja</a>
+                </li>
+
+                <li class="list">
+                    <a href="" class="links">Biblioteca</a>
+                </li>
+
+                <li class="list">
+                    <a href="" class="links">Categorias</a>
+                </li>
+
+                <li class="list">
+                    <a href="" class="links">Notícias</a>
+                </li>
+
+                <li class="list">
+                    <a href="" class="links">Novidades e Tendências</a>
+                </li>
+
+                <li class="list">
+                    <a href="" class="links">Lista de desejos</a>
+                </li>
+            </ul>
+        </section>
+
+            <section class="banner">
+            <h2 class="banner__titulo">Procure Games em <span class="tit">Mavi Store</span></h2>
+            <p class="banner__texto">Você não pode mudar o passado, mas pode mudar o futuro.” Assassin’s Creed 3</p>
+            <input type="search" class="banner__pesquisa" placeholder="Pesquise aqui!">
+             </section>
+                        
+                        <!-- Slider main container -->
+                        <div class="game-imagem">
+                            <!-- Slider main container -->
+                                        <div class="swiper">
+                                            <!-- Additional required wrapper -->
+                                            <div class="swiper-wrapper">
+                                            <!-- Slides -->
+                                            <div class="swiper-slide"><img src="/img/Jujutsu-Kaisen-Wallpaper.webp" alt="" width="50%"></div>
+                                            <div class="swiper-slide"><img src="/img/Jujutsu-Kaisen-Cursed-Clash-1-1024x576.webp" alt="" width="50%"></div>
+                                            <div class="swiper-slide"><img src="/img/itadori no trem.jpg" alt="" width="50%"></div>
+                                            <div class="swiper-slide"><img src="/img/dormindo.jpg" alt="" width="50%"></div>
+                                      
+                                            </div>
+                                            
+                                            <div class="swiper-pagination" ></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-scrollbar"></div>
+                                        </div>
+                                    </div>
+
+                  
+                                    <section class="game1">
+                                           <h1 class="titulo-destaque">
+                                            Descontos em destaque
+                                           </h1>
+
+                                         <div class="container">
+                                        <div class="card">
+                                            <img src="/img/game 1.png" alt="Imagem 1" class="card-img">
+                                            <h2>Card 1</h2>
+                                            <p>Conteúdo do primeiro cartão.</p>
+                                            <p>Esta é uma descrição adicional para fornecer mais informações sobre o conteúdo do cartão.</p>
+                                            <button class="btn">Saiba Mais</button>
+                                        </div>
+                                        <div class="card">
+                                            <img src="image2.jpg" alt="Imagem 2" class="card-img">
+                                            <h2>Card 2</h2>
+                                            <p>Conteúdo do segundo cartão.</p>
+                                            <p>Esta é uma descrição adicional para fornecer mais informações sobre o conteúdo do cartão.</p>
+                                            <button class="btn">Saiba Mais</button>
+                                        </div>
+                                        <div class="card">
+                                            <img src="image3.jpg" alt="Imagem 3" class="card-img">
+                                            <h2>Card 3</h2>
+                                            <p>Conteúdo do terceiro cartão.</p>
+                                            <p>Esta é uma descrição adicional para fornecer mais informações sobre o conteúdo do cartão.</p>
+                                            <button class="btn">Saiba Mais</button>
+                                        </div>
+                                    </div>
+
+                                    </section>
+
+
+
+
+
+             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+            
+            slidesPerView: 1,
+            autoplay: {
+            delay: 2000,
+        },
+            });
+
+        </script>
+
+
+    
+</body>
+</html>
